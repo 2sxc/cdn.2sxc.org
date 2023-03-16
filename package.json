@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node ./build/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/2sxc/cdn.2sxc.org.git"
@@ -17,6 +19,12 @@
   },
   "homepage": "https://github.com/2sxc/cdn.2sxc.org#readme",
   "dependencies": {
-    "bootstrap": "^4.6.2"
+    "bootstrap462": "npm:bootstrap@^4.6.2",
+    "bootstrap523": "npm:bootstrap@^5.2.3",
+    "fancybox3.5.7": "npm:@fancyapps/fancybox@^3.5.7",
+    "fancybox4.0.31": "npm:@fancyapps/ui@^4.0.31"
+  },
+  "devDependencies": {
+    "cpy": "^9.0.1"
   }
 }
