@@ -20,20 +20,34 @@ This repo has 2 purposes:
 
 1. Be hosted on `https://cdn.2sxc.org/` as a neutral, cookie-free CDN
 1. Can be cloned by anybody who wishes to copy these files in the same structure to their own website or CDN
+1. The default location for same-site cdns is `/cdn/` - so it's easy to copy to your own site
+1. But you can also specify another url in the settings, so you can put it anywhere
 
 ## Structure
 
-Internally all the packages we publish are copied to the `/docs` folder.
-This is because GitHub Pages only works with the `/docs` folder.
+Internally all the packages we publish are copied to the `/packages` folder.
+This means that the default targets are:
+
+* `https://cdn.2sxc.org/packages`
+* `/cdn/packages` (on your site)
+
+## Special Renames
+
+The original folders often have a `@` character in the path.
+This causes trouble when hosting on a Windows server.
+Because of this, the paths here replace the `@` character with `_` - so `@fancyapps` becomes `_fancyapps`.
 
 ## Contents
 
 This is still WIP, but currently contains:
 
 1. Bootstrap 4.6.2 CSS and JS - for 2sxc 15.04+
-1. Bootstrap 5.x ? - for 2sxc 15.04+
+1. Bootstrap 5.2.3 CSS and JS - for 2sxc 15.04+
 
-todo
+todo - fonts, etc.
+
+1. Roboto
+1. Google Material Font Icons
 
 ## How to Add More Packages
 
