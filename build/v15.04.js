@@ -24,9 +24,9 @@ export async function v1504() {
   ], 'packages/bootstrap@5.2.3/dist/css', { flat: true });
 
   await cpy([
-    'node_modules/bootstrap523/dist/js/bootstrap.bundle.min.js',
-    'node_modules/bootstrap523/dist/js/bootstrap.bundle.min.js.map',
-  ], 'packages/bootstrap@4.6.2/dist/js', { flat: true });
+    'node_modules/bootstrap523/dist/js/bootstrap.min.js',
+    'node_modules/bootstrap523/dist/js/bootstrap.min.js.map',
+  ], 'packages/bootstrap@5.2.3/dist/js', { flat: true });
 
   // FontAwesome 5.15.4 for 2sxc 15.04+
   // This was copied manually, because the npm package doesn't contain the minified files
