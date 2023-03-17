@@ -1,5 +1,6 @@
 // Get the cpy plugin
 import cpy from 'cpy';
+import {copyFile} from 'cp-file';
 
 console.log('v15.04.js loaded');
 
@@ -57,7 +58,8 @@ export async function v1504() {
     const element = cdnMap[i];
     const dest = rewriteDest(element.to, 15);
     console.log(`created ${dest}`);
-    await cpy(element.from, dest, { flat: true });
+    // await cpy(element.from, dest, { flat: true });
+    await copyFile(element.from, dest);
   }
   
   console.log('Completed v15.04');
