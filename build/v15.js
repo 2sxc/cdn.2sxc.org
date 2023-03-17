@@ -60,6 +60,10 @@ export async function v1504() {
     console.log(`created ${dest}`);
     await copyFile(element.from, dest);
   }
+
+  cpy([
+    'src/google-fonts/**',
+  ], 'packages/v15/google-fonts');
   
   console.log('Completed v15.04');
 }
