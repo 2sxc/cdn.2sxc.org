@@ -1,0 +1,506 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback1.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback2.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback3.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback4.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback5.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback6.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback7.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback8.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback9.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./Material_Symbols_Outlined-100-fallback10.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback11.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback12.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback13.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback14.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback15.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback16.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback17.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback18.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback19.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Material_Symbols_Outlined-200-fallback20.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback21.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback22.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback23.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback24.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback25.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback26.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback27.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback28.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback29.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Material_Symbols_Outlined-300-fallback30.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback31.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback32.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback33.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback34.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback35.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback36.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback37.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback38.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback39.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Material_Symbols_Outlined-400-fallback40.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback41.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback42.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback43.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback44.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback45.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback46.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback47.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback48.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback49.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Material_Symbols_Outlined-500-fallback50.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback51.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback52.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback53.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback54.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback55.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback56.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback57.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback58.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback59.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Material_Symbols_Outlined-600-fallback60.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback61.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback62.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback63.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback64.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback65.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback66.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback67.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback68.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback69.woff2') format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Material_Symbols_Outlined-700-fallback70.woff2') format('woff2');
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}

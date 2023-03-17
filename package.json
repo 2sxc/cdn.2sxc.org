@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node ./build/build.js",
+    "download-fonts": "node ./build/fonts-v15.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
