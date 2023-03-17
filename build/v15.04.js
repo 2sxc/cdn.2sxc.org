@@ -1,4 +1,4 @@
-// Get the cpy plugin
+// Get the cpy and copyFile plugin
 import cpy from 'cpy';
 import {copyFile} from 'cp-file';
 
@@ -47,18 +47,17 @@ export async function v1504() {
   }
 
   /** Helper */
-  function rewriteDest(dest, version) {
+  function rewriteDest(dest, setIdentifier) {
     const index = getPosition(dest, '/', 3);
-    const newPath = `packages/v${version}${dest.substring(index)}`;
+    const newPath = `packages/${setIdentifier}${dest.substring(index)}`;
     return newPath.split('@').join('-');
   }
 
   // Copy the files
   for (let i = 0; i < cdnMap.length; i++) {
     const element = cdnMap[i];
-    const dest = rewriteDest(element.to, 15);
+    const dest = rewriteDest(element.to, 'v15');
     console.log(`created ${dest}`);
-    // await cpy(element.from, dest, { flat: true });
     await copyFile(element.from, dest);
   }
   
