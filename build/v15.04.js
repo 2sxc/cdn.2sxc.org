@@ -10,23 +10,23 @@ export async function v1504() {
   await cpy([
     'node_modules/bootstrap462/dist/css/bootstrap.min.css',
     'node_modules/bootstrap462/dist/css/bootstrap.min.css.map',
-  ], 'packages/bootstrap_4.6.2/dist/css', { flat: true });
+  ], 'packages/bootstrap-4.6.2/dist/css', { flat: true });
 
   await cpy([
     'node_modules/bootstrap462/dist/js/bootstrap.bundle.min.js',
     'node_modules/bootstrap462/dist/js/bootstrap.bundle.min.js.map',
-  ], 'packages/bootstrap_4.6.2/dist/js', { flat: true });
+  ], 'packages/bootstrap-4.6.2/dist/js', { flat: true });
 
   // Bootstrap 5.2.2 for 2sxc 15.40+
   await cpy([
     'node_modules/bootstrap523/dist/css/bootstrap.min.css',
     'node_modules/bootstrap523/dist/css/bootstrap.min.css.map',
-  ], 'packages/bootstrap_5.2.3/dist/css', { flat: true });
+  ], 'packages/bootstrap-5.2.3/dist/css', { flat: true });
 
   await cpy([
     'node_modules/bootstrap523/dist/js/bootstrap.min.js',
     'node_modules/bootstrap523/dist/js/bootstrap.min.js.map',
-  ], 'packages/bootstrap_5.2.3/dist/js', { flat: true });
+  ], 'packages/bootstrap-5.2.3/dist/js', { flat: true });
 
   // FontAwesome 5.15.4 for 2sxc 15.04+
   // This was copied manually, because the npm package doesn't contain the minified files
@@ -53,6 +53,6 @@ export async function v1504() {
   await cpy([
     'node_modules/fancybox4.0.31/dist/fancybox.umd.js',
     'node_modules/fancybox4.0.31/dist/fancybox.css',
-  ], 'packages/_fancyapps/ui_4.0.31/dist', { flat: true });
+  ], 'packages/-fancyapps/ui-4.0.31/dist', { flat: true });
 
 }
