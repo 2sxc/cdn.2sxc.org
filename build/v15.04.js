@@ -48,7 +48,7 @@ export async function v1504() {
   /** Helper */
   function rewriteDest(dest, version) {
     const index = getPosition(dest, '/', 3);
-    const newPath = 'packages/' + version + dest.substring(index);
+    const newPath = `packages/v${version}${dest.substring(index)}`;
     return newPath.split('@').join('-');
   }
 
