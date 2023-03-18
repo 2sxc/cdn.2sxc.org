@@ -13,8 +13,9 @@ export async function v1504Fonts() {
     userAgent: userAgent,
   });
 
-  downloader.download('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200', {
-    outputDir: 'src/google-fonts/material-symbols-outlined',
+  // downloader.download('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200', {
+  downloader.download('https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined', {
+    outputDir: 'src/google-fonts/material-icons',
     userAgent: userAgent,
   });
 
