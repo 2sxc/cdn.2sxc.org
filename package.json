@@ -1,0 +1,33 @@
+{
+  "name": "cdn.2sxc.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build/build.js",
+    "download-fonts": "node ./build/fonts-v15.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2sxc/cdn.2sxc.org.git"
+  },
+  "author": "2sic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2sxc/cdn.2sxc.org/issues"
+  },
+  "homepage": "https://github.com/2sxc/cdn.2sxc.org#readme",
+  "dependencies": {
+    "bootstrap462": "npm:bootstrap@^4.6.2",
+    "bootstrap523": "npm:bootstrap@^5.2.3",
+    "cp-file": "^10.0.0",
+    "fancybox3.5.7": "npm:@fancyapps/fancybox@^3.5.7",
+    "fancybox4.0.31": "npm:@fancyapps/ui@^4.0.31",
+    "get-google-fonts": "^1.2.2"
+  },
+  "devDependencies": {
+    "cpy": "^9.0.1"
+  }
+}
