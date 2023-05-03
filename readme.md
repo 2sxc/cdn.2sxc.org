@@ -1,10 +1,13 @@
 # cdn.2sxc.org
 
 This is a simple, lightweight CDN for 2sxc.
-The repo is <https://github.com/2sxc/cdn.2sxc.org>
+
+📖 Read the docs on <https://r.2sxc.org/cdn>
 
 * Last Publish: 2023-03-21 (2sxc v15.04 - 16.00)
 * Last Docs update: 2023-05-03
+* GitHub repo: <https://github.com/2sxc/cdn.2sxc.org>
+
 
 ## Background
 
